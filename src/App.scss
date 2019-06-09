@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    max-width: 1000px;
+    margin: auto;
+}
+.page {
+    box-shadow: 0 0 7px 2px #00000075;
+    padding: 15px;
+    min-height: 250px;
+}
+
+#header, .page {
+    box-shadow: 0 0 7px 2px #00000075;
+}

@@ -1,0 +1,20 @@
+#header {
+    background: black;
+    ul {
+        list-style: none;
+        display: flex;
+        li {
+            a {
+                padding: 10px 15px;
+                text-transform: uppercase;
+                color: white;
+                text-decoration: none;
+                display: block;
+                &.active {
+                    background: #585757;
+                }
+            }
+            
+        }
+    }
+}
